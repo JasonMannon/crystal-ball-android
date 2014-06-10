@@ -31,7 +31,20 @@ public class MainActivity extends ActionBarActivity {
 				
 				Random randomGenerator = new Random(); //Construct a new random number generator
 				int randomNumber = randomGenerator.nextInt(3);
-				answer = Integer.toString(randomNumber);
+				/* Convert the random number to a text variable
+				 * 0 = Yes
+				 * 1 = No
+				 * 2 = Maybe
+				 */
+				if (randomNumber == 0) {
+					answer = "Yes";
+				} else if (randomNumber == 1 ) {
+					answer = "No"; 
+				} else if (randomNumber == 2) {
+					answer = "Maybe";
+				} else {
+					answer = "sorry there was an error";
+				}
 				
 				answerLabel.setText(answer);
 				
