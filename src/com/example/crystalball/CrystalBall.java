@@ -2,8 +2,6 @@ package com.example.crystalball;
 
 import java.util.Random;
 
-import android.view.View;
-
 public class CrystalBall {
 	public String[] mAnswers = {
 			"It is certain",
