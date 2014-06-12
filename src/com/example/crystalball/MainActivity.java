@@ -7,6 +7,7 @@ import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.animation.AlphaAnimation;
@@ -43,7 +44,10 @@ public class MainActivity extends Activity {
 			}
     	});
     	
-    	Toast.makeText(this, "Yay! our activity was created", Toast.LENGTH_LONG).show();
+    	//Toast.makeText(this, "Yay! our activity was created", Toast.LENGTH_LONG).show();
+//    	Toast welcomeToast = Toast.makeText(this, "Look at me up here!", Toast.LENGTH_LONG);
+//        welcomeToast.setGravity(Gravity.TOP, 0, 0);
+//        welcomeToast.show();
     }
     	
     	@Override
